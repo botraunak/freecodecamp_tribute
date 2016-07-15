@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open-Sans','Calibri';
+}
+
+::selection{
+	background: orange;
+	color: white;
+}
+body{
+	overflow-x: hidden;
+}
+.page{
+	margin-top: 10vh;
+}
+#cover{
+	height: 70vh;
+	width: 100vw;
+	background: url('../img/cover.jpeg') #d4d4d2  no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo{
+	color: #fff;
+	font-family: 'Montserrat';
+	font-size: 2em;
+}
+
+
+.nav-link{
+	color: orange !important;
+	font-size: 1.5em;
+	background: transparent !important;
+}
+
+.cover-main{
+	    text-align: center;
+    color: white;
+}
+.dob{
+    font-size: 2rem;
+}
+.cover-main .main-logo{
+	line-height: 25rem;
+	font-size: 30rem;
+    font-family: 'Times-New-Roman';
+    text-shadow: 1px 1px 20px black;
+    margin: 0px;
+}
+
+
+
+.nav-link:hover{
+	border-bottom: 1px dashed orange;
+	background: transparent !important;
+	color: orange;
+}
+
+
+#cover .icon-bar{
+	background: white;
+}
+
+
+.intro-quote{
+	text-align: right;
+	font-size: 2em;
+	text-transform: uppercase;
+	border: none;
+}
+
+.intro-quote span{
+	color: orange;
+}
+
+
+
+.intro-content::first-letter {
+    float: left;
+    font-size: 100px;
+    line-height: 80px;
+    padding-top: 4px;
+    padding-right: 20px;
+    padding-left: 3px; 
+    padding-bottom: 5px;
+}
+
+.intro-content , .content{
+	font-size: 18px;
+}
+
+.parallax{
+	display: flex;
+}
+
+.parallax .parallax-wrapper{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#pulpfiction{
+	background: url('../img/parallax_1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 70vh;
+}
+
+.parallax .content{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 1px 1px 20px black;
+}
+
+
+#footer{
+	margin-top: 5vh;
+	text-align: center;
+}
+
+#footer .logo{
+	color: #111;
+	font-size: 2em;
+	line-height: 3em;
+}
+.mahnav .link a{
+	color: white;
+	text-align: center;
+	background: rgba(0,0,0,0.4);
+
+}
+
+.mahnav .link a:hover{
+	background: rgba(0,0,0,0.6);
+	color: white;
+}
+
+
+@media (min-width: 768px){
+	#cover{
+
+	min-height: 400px;
+	}
+}
