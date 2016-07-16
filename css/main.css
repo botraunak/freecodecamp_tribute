@@ -66,16 +66,27 @@ body{
 
 .intro-quote{
 	text-align: right;
-	font-size: 2em;
+	font-size: 1.8em;
 	text-transform: uppercase;
 	border: none;
+}
+
+#pulpfiction-about .intro-quote,#django-about .intro-quote{
+	color: #afafaf;
+}
+
+#django-about .intro-quote span{
+	color: black;
+	border-bottom: 1px solid #cecece;
+}
+
+#pulpfiction-about .intro-quote a{
+	text-decoration: none;
 }
 
 .intro-quote span{
 	color: orange;
 }
-
-
 
 .intro-content::first-letter {
     float: left;
@@ -107,14 +118,37 @@ body{
 	background: url('../img/parallax_1.jpg');
 	background-size: cover;
 	background-attachment: fixed;
+	height: 50vh;
+}
+
+#django-parallax{
+	background: url('../img/parallax_2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
 	height: 70vh;
 }
 
+.parallax-heading{
+	text-shadow: 1px 1px 80px black;
+    color: white;
+    font-size: 5em;
+    border-bottom: 1px solid;
+    font-family: 'Times New Roman';
+}
 .parallax .content{
 	color: white;
 	font-size: 2em;
 	text-align: center;
 	text-shadow: 1px 1px 20px black;
+}
+
+.btn-django{
+	border: 1px solid white;
+	font-family: 'Times-New-Roman';
+	color: white;
+	background: rgba(0,0,0,0.5);
+	border-radius: 0px;
+	text-shadow: 1px 1px 30px black;
 }
 
 
@@ -138,6 +172,11 @@ body{
 .mahnav .link a:hover{
 	background: rgba(0,0,0,0.6);
 	color: white;
+}
+
+.border .bod{
+	height: 1vh;
+	background: #eaeaea;
 }
 
 
