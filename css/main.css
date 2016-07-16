@@ -131,7 +131,7 @@ body{
 .parallax-heading{
 	text-shadow: 1px 1px 80px black;
     color: white;
-    font-size: 5em;
+    font-size: 6vw;
     border-bottom: 1px solid;
     font-family: 'Times New Roman';
 }
